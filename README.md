@@ -14,30 +14,12 @@ repo sync -c -j8 --no-tags
 
 `snippets/d4rk.xml` lists the projects that come from this organization (branch `V3-END`).
 
-## Devices
-
-| Device | Codename | Status |
-|---|---|---|
-| Samsung Galaxy J7 Prime | on7xelte | Reference device |
-| Redmi Note 12 Pro 4G | sweet_k6a | Experimental, needs own trees and extra fixes |
-
-Device, vendor and kernel trees are not part of this manifest yet. Add yours with a local manifest
-in `.repo/local_manifests/`.
-
-The default wallpaper in this tree is **1080x1920** (J7 Prime). Devices with other resolutions
-(e.g. 1080x2400) should override `default_wallpaper.png` in their device overlay.
-
 ## Build notes
 
 * Host compiler: the `system/tools/aidl` fix (uninitialized member) is included.
 * If the build fails with a missing `clang-r450784d/bin/ld`, create the symlink:
   `ln -s lld prebuilts/clang/host/linux-x86/clang-r450784d/bin/ld`
 * Disable RBE if you do not have a remote build service configured.
-
-## Known issues
-
-* Bluetooth SCO calls and screen recording have problems.
-* Three crashes are still being investigated on the J7 Prime.
 
 ## Credits and licenses
 
