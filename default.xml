@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <remote name="d4rk" fetch="https://github.com/D4RK-Os" /><remote name="aosp" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-13.0.0_r75" />
+  <remote name="d4rk" fetch="https://github.com/D4RK-Os" />
+  <remote name="aosp" fetch="https://android.googlesource.com" review="android-review.googlesource.com" revision="refs/tags/android-13.0.0_r75" />
   <remote name="d4rk-github" fetch="https://github.com/" />
   <remote name="github" fetch=".." review="review.lineageos.org" />
   <remote name="havoc" fetch="https://github.com/Havoc-OS" revision="thirteen" />
@@ -8,9 +9,7 @@
   <remote name="havoc-devices-gitlab" fetch="https://gitlab.com/Havoc-Devices" revision="thirteen" />
   <remote name="havoc-gitlab" fetch="https://gitlab.com/Havoc_OS" revision="thirteen" />
   <remote name="private" fetch="ssh://git@github.com" />
-  
   <default remote="github" revision="refs/heads/lineage-20.0" sync-j="4" sync-c="true" />
-  
   <project name="Havoc-OS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="d4rk-github" revision="6bb38ac07319582679525fb20fc4af16a3dbba15" groups="local::d4rk_lineageparts" />
   <project name="android_bionic" path="bionic" groups="pdk" remote="d4rk" revision="V3-END" />
   <project name="LineageOS/android_development" path="development" groups="developers,pdk-cw-fs,pdk-fs" />
@@ -1304,8 +1303,9 @@
   <project name="toolchain/benchmark" remote="aosp" />
   <project name="toolchain/pgo-profiles" remote="aosp" groups="pdk" />
   <project name="tools/platform-compat" remote="aosp" groups="pdk,pdk-cw-fs,pdk-fs" />
-  
   <superproject name="platform/superproject" remote="aosp" revision="android-13.0.0_r75" />
-  
   <contactinfo bugurl="go/repo-bug" />
+  <project path="packages/apps/AloneTools" name="android_packages_apps_AloneTools" remote="d4rk" revision="V3-END" />
+  <project path="packages/apps/FallBaskets" name="android_packages_apps_FallBaskets" remote="d4rk" revision="V3-END" />
+  <project path="packages/apps/LazerSavunucu" name="android_packages_apps_LazerSavunucu" remote="d4rk" revision="V3-END" />
 </manifest>

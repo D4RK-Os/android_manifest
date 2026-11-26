@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <manifest>
-  <!-- Projects modified by D4RK OS V3-END. Everything else is fetched from upstream (Havoc-OS, LineageOS, AOSP). -->
   <remote name="d4rk" fetch="https://github.com/D4RK-Os" />
   <project name="android_bionic" path="bionic" groups="pdk" remote="d4rk" revision="V3-END" />
   <project name="android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" groups="pdk-fs" remote="d4rk" revision="V3-END" />
@@ -17,4 +16,7 @@
   <project name="android_vendor_pixel-framework" path="vendor/pixel-framework" remote="d4rk" revision="V3-END" />
   <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="d4rk" groups="pdk" revision="V3-END" />
   <project name="android_system_tools_aidl" path="system/tools/aidl" remote="d4rk" groups="pdk" revision="V3-END" />
+  <project path="packages/apps/AloneTools" name="android_packages_apps_AloneTools" remote="d4rk" revision="V3-END" />
+  <project path="packages/apps/FallBaskets" name="android_packages_apps_FallBaskets" remote="d4rk" revision="V3-END" />
+  <project path="packages/apps/LazerSavunucu" name="android_packages_apps_LazerSavunucu" remote="d4rk" revision="V3-END" />
 </manifest>
