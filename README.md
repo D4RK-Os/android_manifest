@@ -16,6 +16,7 @@ repo sync -c -j8 --no-tags
 
 ## Build notes
 
+* The default wallpaper in this tree is 1080x1920. Devices with other resolutions should override `default_wallpaper.png` in their device overlay.
 * Host compiler: the `system/tools/aidl` fix (uninitialized member) is included.
 * If the build fails with a missing `clang-r450784d/bin/ld`, create the symlink:
   `ln -s lld prebuilts/clang/host/linux-x86/clang-r450784d/bin/ld`
