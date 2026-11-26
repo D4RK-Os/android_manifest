@@ -10,7 +10,7 @@
   <remote name="havoc-gitlab" fetch="https://gitlab.com/Havoc_OS" revision="thirteen" />
   <remote name="private" fetch="ssh://git@github.com" />
   <default remote="github" revision="refs/heads/lineage-20.0" sync-j="4" sync-c="true" />
-  <project name="Havoc-OS/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="d4rk-github" revision="6bb38ac07319582679525fb20fc4af16a3dbba15" groups="local::d4rk_lineageparts" />
+  <project name="android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="d4rk" revision="V3-END" groups="local::d4rk_lineageparts" />
   <project name="android_bionic" path="bionic" groups="pdk" remote="d4rk" revision="V3-END" />
   <project name="LineageOS/android_development" path="development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" groups="pdk" />
