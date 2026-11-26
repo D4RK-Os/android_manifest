@@ -13,7 +13,6 @@
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="d4rk" revision="V3-END" />
   <project name="android_system_sepolicy" path="system/sepolicy" remote="d4rk" revision="V3-END" />
   <project name="android_vendor_d4rk" path="vendor/lineage" remote="d4rk" revision="V3-END" />
-  <project name="android_vendor_pixel-framework" path="vendor/pixel-framework" remote="d4rk" revision="V3-END" />
   <project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="d4rk" groups="pdk" revision="V3-END" />
   <project name="android_system_tools_aidl" path="system/tools/aidl" remote="d4rk" groups="pdk" revision="V3-END" />
   <project path="packages/apps/AloneTools" name="android_packages_apps_AloneTools" remote="d4rk" revision="V3-END" />
